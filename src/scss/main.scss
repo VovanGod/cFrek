@@ -1,0 +1,24 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+
+
+/* Blocks */
+@import "./blocks/_menu";
+@import "./blocks/_header";
+@import "./blocks/_notice";
+
+// mainPage
+@import "./blocks/mainPage/mainPage";
+@import "./blocks/mainPage/ads";
+@import "./blocks/mainPage/todayTimeTable";
+@import "./blocks/mainPage/_modal";
+@import "./blocks/mainPage/personRating";
+
+// ratingPage
+@import "./blocks/ratingPage/ratingPage";
+
+

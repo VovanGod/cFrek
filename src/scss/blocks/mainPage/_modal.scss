@@ -1,0 +1,70 @@
+.modal {
+    width: 220px;
+    height: 150px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    z-index: 3;
+
+    display: block;
+
+    &-txt {
+        margin: 0 auto;
+        margin-top: 29px;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.15px;
+        width: 143px;
+        text-align: center;
+    }
+
+    &-btns {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+    &-btn {
+        border-top: 2px solid rgb(169, 176, 236);
+        height: 50px;
+        width: 50%;
+    }  
+
+    .border {
+        border-right: 2px solid rgb(169, 176, 236);
+        width: 50%;
+    }
+}
+
+.overlay {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    display: flex;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    &-open {
+        animation: openModal 0.15s ease-in forwards;
+    }
+}
+
+@keyframes openModal {
+    0% {
+        pointer-events:all;
+        opacity: 0;
+        overflow-y: hidden;
+    }
+    100% {
+        pointer-events:all;
+        opacity: 1;
+        overflow-y: hidden;
+    }
+}

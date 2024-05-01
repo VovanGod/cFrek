@@ -1,0 +1,29 @@
+.today {
+    display: flex;
+    justify-content: space-between;
+    &-block {
+        padding: 12px 0 0 12px;
+        width: 165px;
+        height: 90px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.12);
+        background: rgb(255, 255, 255);
+
+        color: rgb(87, 87, 87);
+        font-size: 23px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 22px;
+
+        &-green {
+            background: rgb(62, 126, 85);
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .inf {
+        font-size: 32px;
+        line-height: 22px;
+        margin-top: 11px;
+    }
+}

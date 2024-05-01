@@ -1,0 +1,103 @@
+.notice {
+    margin: 25px 0;
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        padding-bottom: 70px;
+    }
+    
+    &-card {
+        position: relative;
+        padding: 20px 15px 16px 46px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+        background: rgb(255, 255, 255);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        transition: all 0.2s ease-in;
+    }
+
+    &-title {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .img-wrap {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        width: 45px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-txt {
+        width: 273px;
+        color: rgb(39, 39, 39);
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.15px;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .time {
+        padding: 4px 0;
+        color: rgb(39, 39, 39);
+        font-size: 9px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    &-card-wrap {
+        margin-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .card-btn {
+        width: 88px;
+        height: 27px;
+        border-radius: 7px;
+        box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.1);
+        background: rgb(255, 255, 255);
+        color: rgb(122, 189, 135);
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .card-alert {
+        background: rgb(202, 222, 200);
+    }
+
+    .card-urgent {
+        background: rgb(0, 154, 89);
+        .notice-title {
+            color: rgb(255, 255, 255);
+        }
+        .notice-txt {
+            color: rgb(255, 255, 255);
+        }
+        .time {
+            color: rgb(255, 255, 255);
+        }
+        .card-btn {
+            color: rgb(0, 154, 89);
+        }
+    }
+}
