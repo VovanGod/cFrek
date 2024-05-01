@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/VovanGod/frek/static/css/main.9af3f1a0.css",
-    "main.js": "/VovanGod/frek/static/js/main.74326872.js",
-    "index.html": "/VovanGod/frek/index.html",
-    "main.9af3f1a0.css.map": "/VovanGod/frek/static/css/main.9af3f1a0.css.map",
-    "main.74326872.js.map": "/VovanGod/frek/static/js/main.74326872.js.map"
+    "main.css": "/frek/static/css/main.9af3f1a0.css",
+    "main.js": "/frek/static/js/main.74326872.js",
+    "index.html": "/frek/index.html",
+    "main.9af3f1a0.css.map": "/frek/static/css/main.9af3f1a0.css.map",
+    "main.74326872.js.map": "/frek/static/js/main.74326872.js.map"
   },
   "entrypoints": [
     "static/css/main.9af3f1a0.css",
