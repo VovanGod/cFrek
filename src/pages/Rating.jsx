@@ -10,7 +10,7 @@ const Rating = () => {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         >
-            <Header title={"Расписание"}/>
+            <Header title={"Рейтинг"}/>
             <ContentRating/>
         </motion.div>
     );

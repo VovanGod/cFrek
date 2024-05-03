@@ -25,7 +25,7 @@ const Header = ({title}) => {
                 </div> 
                 : <img src="./img/logo.svg" alt="logo" className="logo" />} 
                     <div className="header-info">
-                        <Link to='/notifications' data-count={number} className="notifications">
+                        <Link to='/cfrek/notifications' data-count={number} className="notifications">
                             <img src="./img/notifications.svg" alt="notifications" />
                         </Link>
                         <button className="profile">OP</button>

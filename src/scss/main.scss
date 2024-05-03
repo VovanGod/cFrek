@@ -7,6 +7,7 @@
 
 
 /* Blocks */
+@import "./blocks/general/general";
 @import "./blocks/_menu";
 @import "./blocks/_header";
 @import "./blocks/_notice";
@@ -17,8 +18,11 @@
 @import "./blocks/mainPage/todayTimeTable";
 @import "./blocks/mainPage/_modal";
 @import "./blocks/mainPage/personRating";
+@import "./blocks/mainPage/studentsBirth";
 
 // ratingPage
 @import "./blocks/ratingPage/ratingPage";
+@import "./blocks/ratingPage/studentRating";
+@import "./blocks/ratingPage/ratingInput";
 
 

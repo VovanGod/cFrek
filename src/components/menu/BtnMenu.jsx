@@ -9,16 +9,16 @@ const BtnMenu = ({link, title, href, focus = 0}) => {
     }
 
     return (
-        <Link to={`/${href}`}>
+        <Link to={`/cfrek/${href}`}>
             {focus != 0 ?
             <button onClick={handleClick} ref={click} className="menu-btn" autoFocus>
-            <img src={`img/${link}.svg`} alt={link} /> 
-            <img src={`img/${link}-gr.svg`} alt={link} className='btn-gr'/> 
+            <img src={`/cfrek/img/${link}.svg`} alt={link} /> 
+            <img src={`/cfrek/img/${link}-gr.svg`} alt={link} className='btn-gr'/> 
             {title}
         </button> :
             <button onClick={handleClick} ref={click} className="menu-btn">
-                <img src={`img/${link}.svg`} alt={link} /> 
-                <img src={`img/${link}-gr.svg`} alt={link} className='btn-gr'/> 
+                <img src={`/cfrek/img/${link}.svg`} alt={link} /> 
+                <img src={`/cfrek/img/${link}-gr.svg`} alt={link} className='btn-gr'/> 
                 {title}
             </button>}
         </Link>

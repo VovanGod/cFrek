@@ -6,10 +6,11 @@ import Rating from '../pages/Rating';
 import Teachers from '../pages/Teachers';
 
 export const routes = [
-    {path: "/", element: <Main/>, exact: true },
-    {path: "/notifications", element: <Notifications/>, exact: true },
-    {path: "/timetable", element: <TimeTable/>, exact: true },
-    {path: "/events", element: <Events/>, exact: true },
-    {path: "/rating", element: <Rating/>, exact: true },
-    {path: "/teachers", element: <Teachers/>, exact: true }
+    {path: "*", element: <Main/>, exact: true },
+    {path: "/cfrek/", element: <Main/>, exact: true },
+    {path: "/cfrek/notifications", element: <Notifications/>, exact: true },
+    {path: "/cfrek/timetable", element: <TimeTable/>, exact: true },
+    {path: "/cfrek/events", element: <Events/>, exact: true },
+    {path: "/cfrek/rating", element: <Rating/>, exact: true },
+    {path: "/cfrek/teachers", element: <Teachers/>, exact: true }
 ]
