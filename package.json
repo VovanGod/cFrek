@@ -2,7 +2,11 @@
   "name": "cifrec",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://vovangod.github.io/cfrek/",
+=======
+  "homepage": ".",
+>>>>>>> 0c335b3834174b1bcf563026005483737f5b4246
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
